@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projektowanie Stron Internetowych</title>
+</head>
+<body>
+	<div style="background-color:grey;">
+		<h1><center>PSI - Szymon Wilga</center></h1>
+	</div>
+	<div style="float:left; wdith:30%; height: 550px;">
+		<h3>HTML</h3>
+			<a href="index.html">STRONA GŁÓWNA</a></br>
+			<a href="kolory.html">KOLORY</a></br>
+			<a href="nauczyciele.html">NAUCZYCIELE</a></br>
+			<a href="zdjecia.html">ZDJĘCIA</a></br>
+			<a href="tabela.html">TABELA</a></br>
+			<a href="tabela_wilga.html">TABELA NA OCENE</a></br>
+			<a href="listy.html">LISTY</a></br>
+			<a href="lista_wilga.html">LISTY NA OCENE</a></br>
+			<a href="mapy_odsylaczy.html">MAPY ODSYŁACZY</a></br>
+			<a href="formularz.html">FORMULARZ</a></br>
+	</div>
+	<div style="float:right;width:70%;">
+	
+	<body>
+	<form action="onclick" method="post" enctype="multipart/form-data">
+<font size="6"><p><center> FORMULARZ KONTAKTOWY </center></p></font>
+<p> IMIĘ I NAZWISKO <input type="text" name"nazwisko_i_imie" size="30" /></p>
+<p> ADRES EMAIL <input type="text" name"email" value="email@gmail.com" /></p>
+<p> HASŁO <input type="password" id="haslo" maxlength="10"/></p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p> PŁEĆ (bez etykiety label)</p>
+<p><input type="radio" name="plec" id="mezczyzna" value="mezczyzna"> MĘŻCZYZNA </p>
+<p><input type="radio" name="plec" id="kobieta" value="kobieta" > KOBIETA </p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p> PLEĆ (z etykietą label) </p>
+<p><label for="male"> mężczyzna </label>
+        <input type="radio"  name="gender" id="male"  value="mezczyzna" > <br/>
+        <label for="famale"> kobieta </label>
+        <input type="radio"  name="gender" id="famale"  value="kobieta" > <br/> </p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p> JĘZYKI, KTÓRYMI WŁADASZ: </p>
+<p><input type="checkbox" name="nazwa_jezyka" value="wartosc_ang" checked/> ANG </p>
+<p><input type="checkbox" name="nazwa_jezyka" value="wartosc_nie" > NIE </p>
+<p><input type="checkbox" name="nazwa_jezyka" value="wartosc_chn" > CHN </p>
+</form>
+
+</br>
+<hr>
+</br>
+
+<p><select name="nazwa_owoce" size="4" multiple>
+<optgroup label="ULUBIONE OWOCE">
+<option value="truskawki" />TRUSKAWKI
+<option value="banany" />BANANY
+<option value="maliny" />MALINY
+</optgroup>
+</select>
+</p>
+
+</br>
+<hr>
+</br>
+
+<form action="onclick" method="post" enctype="multipart/form-data">
+<p><input list="blok" name="przegladarki"/>
+<datalist id="blok">
+<option value="Internet Explorer">
+<option value="Firefox">
+<option value="Chrome">
+<option value="Opera">
+<option value="Safiri">
+</datalist> <input type="submit" name="Prześlij">
+</form>
+
+</br>
+<div style="background-color:grey;clear:both;">
+		<center> &copy; S.W., October 2024</center>
+	</div>
+</body>
+</html>
