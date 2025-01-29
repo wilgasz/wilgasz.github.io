@@ -94,8 +94,107 @@
 		border-width: 3px;
 		border-color: white;
 		width: 70%;
-
 		}
+	.zadanie2a
+		{
+		text-decoration: overline;
+		letter-spacing: 5pt;
+		text-align: center;
+		color: white;
+		background: fuchsia;
+		background-clip: content-box;
+		border: 3px dotted navy;
+		padding: 20px;
+		width: 70%;
+		}
+	h1#zadanie5
+		{
+		border: thick groove purple;
+		background-color: rgb(200, 40, 80);
+		font-family: sans-serif;
+			
+		}
+			
+	#ramka1 
+		{
+		border:30px solid transparent;
+		border-image: url(foty/papeteria.jpg) 50 stretch;
+		width:70%;
+		padding:10px;
+		background: white;
+		color:black;
+		}
+	#ramka2
+		{
+		border:30px solid transparent;
+		border-image: url(foty/papeteria.jpg) 50 round;
+		width:70%;
+		padding:10px;
+		background: white;
+		color:black;
+		}
+    a.t1 {
+        color: black;
+        text-decoration: none;
+        background-color: fuchsia;
+        border-radius: 5px;
+        border-color: black;
+        border: 3px solid;
+    }
+
+        a.t1:hover {
+            color: yellow;
+            text-decoration: none;
+            background-color: green;
+            border: 3px dotted;
+            border-color: yellow;
+            border-radius: 5px;
+        }
+
+    a.t2 {
+        color: black;
+        background-color: yellow;
+        border: 3px black double;
+        padding: 2px;
+        border-radius: 5px;
+        background-clip: content-box;
+    }
+
+        a.t2:hover {
+            color: cyan;
+            background-color: green;
+            border: 3px cyan ridge;
+            padding: 2px;
+            border-radius: 5px;
+            background-clip: content-box;
+        }
+
+    ul.punkty
+		{
+        list-style-type: circle;
+        list-style-position: outside;
+        color: violet;
+        font-family: tahoma;
+		}
+
+    ol.numer 
+		{
+        list-style-type: upper-alpha;
+        list-style-position: inside;
+        color: orange;
+        font-family: ravie;
+		}
+    table, tr, td {
+        cursor: crosshair;
+    }
+
+    div#rozmiar {
+        height: 8%;
+        width: 45%;
+        color: aqua;
+        border-width: medium;
+    }
+		
 </style></head>
 </head>
 <body>
@@ -104,66 +203,160 @@
 	</div>
 	<div style="float:left; wdith:30%; height: 550px;">
 		<h3>HTML</h3>
-			<a href="index.html">STRONA GŁÓWNA</a></br>
-			<a href="kolory.html">KOLORY</a></br>
-			<a href="nauczyciele.html">NAUCZYCIELE</a></br>
-			<a href="zdjecia.html">ZDJĘCIA</a></br>
-			<a href="tabela.html">TABELA</a></br>
-			<a href="tabela_wilga.html">TABELA NA OCENE</a></br>
-			<a href="listy.html">LISTY</a></br>
-			<a href="lista_wilga.html">LISTY NA OCENE</a></br>
-			<a href="mapy_odsylaczy.html">MAPY ODSYŁACZY</a></br>
-			<a href="formularz.html">FORMULARZ</a></br>
-			<a href="formularz_wilga">FORMULARZ NA OCENE</a></br>
-			<a href="obrazy_i_multimedia">OBRAZY I MULTIMEDIA</a></br>
-			<a href="wlasciwosci_css">WŁAŚCIWOŚCI CSS</a></br>
-			<a href="identyfikatory">IDENTYFIKATOR CSS</a></br>
+		<a href="index.html">STRONA GŁÓWNA</a></br>
+		<a href="kolory.html">KOLORY</a></br>
+		<a href="nauczyciele.html">NAUCZYCIELE</a></br>
+		<a href="zdjecia.html">ZDJĘCIA</a></br>
+		<a href="tabela.html">TABELA</a></br>
+		<a href="tabela_wilga.html">TABELA NA OCENE</a></br>
+		<a href="listy.html">LISTY</a></br>
+		<a href="lista_wilga.html">LISTY NA OCENE</a></br>
+		<a href="mapy_odsylaczy.html">MAPY ODSYŁACZY</a></br>
+		<a href="formularz.html">FORMULARZ</a></br>
+		<a href="formularz_wilga">FORMULARZ NA OCENE</a></br>
+		<a href="obrazy_i_multimedia">OBRAZY I MULTIMEDIA</a></br>
+		<a href="wlasciwosci_css">WŁAŚCIWOŚCI CSS</a></br>
+		<a href="identyfikatory">IDENTYFIKATOR CSS</a></br>
+		<h3>CSS</h3>
 		<h3>DOKUMENT</h3>
-		<a href="doc/grupa2c.docx" target="new"> lista grupy 2 w 2c </a><br />
+		<a href="doc/lista.docx" target="new"> lista grupy 2 w 2c </a><br />
 		<h3>LINKI</h3>
-			<a href="https://www.google.com"><img src="foty/google.png" width="50px"/> </a><br />
-			<a href="https://tsi-pai.cba.pl"><img src="foty/tsi.png" width="50px"/> </a><br />
+		<a href="https://www.google.com"><img src="foty/google.png" width="50px" /> </a><br />
+		<a href="https://tsi-pai.cba.pl"><img src="foty/tsi.png" width="50px" /> </a><br />
 		<h3>MULTIMEDIA</h3>
-			<a href="doc/wydatki.xlsx" target="new"> wydatki </a><br />
+		<a href="doc/wydatki.xlsx" target="new"> wydatki </a><br />
 	</div>
 	<div style="float:right;width:70%;">
-	<h2 id="tytuly">ZADANIE I - CZCIONKA</h2>
-	<p>Formatowanie akapitu p:krój czcionki - Courier New, styl - pochylenie,
-	grubośc - 500, rozmiar - 20px, kolor - maroon</p>
-	<h2 id="tytuly">ZADANIE IA - CZCIONKA </h2>
-	<blockquote> Formatowanie blockquote, krój czcionki - fantasy, styl - pochylenie,
-	grubość - boldel, rozmiar - 30px, wariant - kapitaliki, kolor - teal.</blockquote>
-	<h2 id="tytuly">ZADANIE IB <br /></h2>
-	<em> Formatowanie (czcionka ravie, rozmiar 50px, styl italic, grubość bold, kolor czerwony) </em><br />
-	<h2 id="tytuly">ZADANIE II <br /></h2>
-	<h4>Formatowanie tytułu h1: <br/>
-		dekoracja tekstu – nakreślenie,<br/>
-		odstępy między wierszami – 100%,<br/>
-		wyśrodkowanie, <br/>
-		kolor tekstu – zielony, <br/>
-		zamiana tekstu - małe litery <br/>
-		wcięcie wiersza - 20px; <br/>
-		odstępy miedzy znakami: 2px</h4><br/>
+		<h2 id="tytuly">ZADANIE I - CZCIONKA</h2>
+		<p>
+			Formatowanie akapitu p:krój czcionki - Courier New, styl - pochylenie,
+			grubośc - 500, rozmiar - 20px, kolor - maroon
+		</p>
+		<h2 id="tytuly">ZADANIE IA - CZCIONKA </h2>
+		<blockquote>
+			Formatowanie blockquote, krój czcionki - fantasy, styl - pochylenie,
+			grubość - boldel, rozmiar - 30px, wariant - kapitaliki, kolor - teal.
+		</blockquote>
+		<h2 id="tytuly">ZADANIE IB <br /></h2>
+		<em> Formatowanie (czcionka ravie, rozmiar 50px, styl italic, grubość bold, kolor czerwony) </em><br />
+		<h2 id="tytuly">ZADANIE II <br /></h2>
+		<h4>
+			Formatowanie tytułu h1: <br />
+			dekoracja tekstu – nakreślenie,<br />
+			odstępy między wierszami – 100%,<br />
+			wyśrodkowanie, <br />
+			kolor tekstu – zielony, <br />
+			zamiana tekstu - małe litery <br />
+			wcięcie wiersza - 20px; <br />
+			odstępy miedzy znakami: 2px
+		</h4><br />
 		<h2 id="tytuly">ZADANIE IIA <br /></h2>
-	<h5>Formatowanie tytułu h4:<br>
-        kolor tekstu – fioletowy, dekoracja tekstu – przekreślenia, odstępy między liniami – 2cm,<br>
-        tekst do prawej strony, zmiana tekstu – kapitaliki, wcięcie pierwszego wiersza - 50px;<br>
-        odstępy między znakami: 5px.</h5><br />
+		<h5>
+			Formatowanie tytułu h4:<br>
+			kolor tekstu – fioletowy, dekoracja tekstu – przekreślenia, odstępy między liniami – 2cm,<br>
+			tekst do prawej strony, zmiana tekstu – kapitaliki, wcięcie pierwszego wiersza - 50px;<br>
+			odstępy między znakami: 5px.
+		</h5><br />
 		<h2 id="tytuly">ZADANIE IIB <br /></h2>
-		<h2 id="tytuly"> Formatowanie tytułu h3:
-		dekoracja tekstu – podkreślenie;
-		odległość między wyrazami w tekście: 15px;
-		text-align: left;
-		color: red;
-		zmiana wielkości liter w tekście: duże litery;	</h2>
-	<div id= "obramowanie1"><h2>ZADANIE IV - OBRAMOWANIE </h2> </div>
-	<h2 class="obramowanie2">zadanie IV – OBRAMOWANIE:
-	Ustawienie obr. dla h2: styl – kreskowanie, kolor obr. – aqua, grubość - średnia, tło żółte</h2>
-	<h3 id="zadanie1">KOLOR TEKSTU: SREBRNY, CZARNE TŁO, ŻÓŁTE OBRAMOWANIE, STYL OBRAMOWANIA: RIDGE,
-		DUŻE LITERY / KAPITALIKI, TEKST USTAWIONY: DO PRAWEJ, BRAK DEKORACJI</h3>
-	<h3 class="zadanie2">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
-		</div>
-	<div style="background-color:grey;clear:both;"><center> &copy; S.W.,October 2024
-	</center></div>
+		<h2 id="tytuly">
+			Formatowanie tytułu h3:
+			dekoracja tekstu – podkreślenie;
+			odległość między wyrazami w tekście: 15px;
+			text-align: left;
+			color: red;
+			zmiana wielkości liter w tekście: duże litery;
+		</h2>
+		<div id="obramowanie1"><h2>ZADANIE IV - OBRAMOWANIE </h2> </div>
+		<h2 class="obramowanie2">
+			zadanie IV – OBRAMOWANIE:
+			Ustawienie obr. dla h2: styl – kreskowanie, kolor obr. – aqua, grubość - średnia, tło żółte
+		</h2>
+		<h3 id="zadanie1">
+			KOLOR TEKSTU: SREBRNY, CZARNE TŁO, ŻÓŁTE OBRAMOWANIE, STYL OBRAMOWANIA: RIDGE,
+			DUŻE LITERY / KAPITALIKI, TEKST USTAWIONY: DO PRAWEJ, BRAK DEKORACJI
+		</h3>
+		<h3 class="zadanie2">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
+		<h3 class="zadanie2a">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
+		<h2 id="zadanie1">  </h2>
+		<h1 id="zadanie5">
+			ZADANIE DODATKOWE
+			<h2 id="ramka1">
+				zadanie IV – OBRAMOWANIE:
+				Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka1"
+				TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;
+				border-image: url(folder/nazwa.jpg) 50 stretch;
+
+				OBRAZ JEST ROZCIĄGNIĘTY ABY WYPEŁNIĆ CAŁY OBSZAR.
+				<h2 id="ramka2">
+					zadanie IV – OBRAMOWANIE:
+					Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka2"
+					TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;
+					border-image: url(folder/nazwa.jpg) 50 round;
+
+					OBRAZ WYPEŁNIA OBSZAR. W RAZIE POTRZEBY JEST PRZESKALOWNY, ABY WYPEŁNIĆ OBSZAR
+				</h2>
+
+	</div>/>
+	<div style="float:right;width:70%;">
+		<h2 id="tytuly">ZADANIE V - PSEUDOKLASY</h2>
+		<a class="t1" href="https://www.onet.pl/" target="new"> ONET </a> &nbsp;&nbsp;&nbsp;
+		<a class="t1" href="https://www.wp.pl/" target="new"> WIRTUALNA POLSKA </a> &nbsp;&nbsp;&nbsp;
+		<a class="t1" href="https://tsi-pai.cba.pl/" target="new"> TSI - PAI </a> &nbsp;&nbsp;&nbsp; </br></br></br></br></br>
+		<a class="t2" href="https://www.onet.pl/" target="new"> ONET </a> &nbsp;&nbsp;&nbsp;
+		<a class="t2" href="https://www.wp.pl/" target="new"> WIRTUALNA POLSKA </a> &nbsp;&nbsp;&nbsp;
+		<a class="t2" href="https://tsi-pai.cba.pl/" target="new"> TSI - PAI </a> &nbsp;&nbsp;&nbsp; </br>
+
+		<h2 id="tytuly">ZADANIE VI - LISTY</h2>
+		<ul class="punkty">
+			PIĘĆ ZALET PRZEDMIOTU TSI:
+			<li> przydatne treści </li>
+			<li> duży rozwój </li>
+			<li> przełożenie do życia </li>
+			<li> bardzo dużo nowych informacji </li>
+			<li> nauczenie się języków </li>
+		</ul>
+		<br />
+
+		<ol class="numer">
+			TRZY WADY PRZEDMIOTU TSI:
+			<li> trzeba być obecnym bo jest dużo do nadrabiania </li>
+			<li> dużo nauki </li>
+			<li> ciężki materiał </li>
+
+		</ol>
+
+		<ol class="new">
+			CO MUSZĘ ZROBIĆ PRZED ŚWIĘTAMI BOŻEGO NARODZENIA:
+			<li> KUPIĆ PREZENTY </li>
+			<li style="list-style-image: url(foty/gwiazda75.gif);"> zrobić zakupy </li>
+			<li style="list-style-image: url(foty/lewswieta125.gif);"> ozdobić choinke  </li>
+			<li style="list-style-image: url(foty/lewswieta.gif);"> POSPRZĄTAĆ </li>
+			<li style="list-style-image: url(foty/gwiazda75.gif);"> kupic prezenty </li>
+			<li style="list-style-image: url(foty/gwiazda75.gif);"> złowić karpia </li>
+		</ol>
+
+		<h2 id="tytuly">ZADANIE VII - KURSOR</h2>
+		<h3>
+			<table border="1" width="20%">
+				<tr>
+					<td> 1 </td>
+					<td> 2 </td>
+			</table>
+		</h3>
+
+		<br />
+
+
+		<h2 id="tytuly">ZADANIE VIII - KURSOR</h2>
+		<div id="obramowanie1"> POZDRAWIAM</div>
+	</br>
+		<div id="obramowanie1"> CGF</div>
+		</br>
+	</div>
+	<div style="background-color:grey;clear:both;">
+		<center>
+			&copy; S.W.,October 2024
+		</center>
+	</div>
 </body>
 </html>
